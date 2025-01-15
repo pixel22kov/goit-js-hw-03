@@ -2,7 +2,6 @@ function slugify(title) {
 	const normalizedSlug = title.toLowerCase().split(" ");
     return normalizedSlug.join("-");
 }
-
 console.log(slugify("Arrays for beginners")); 
 console.log(slugify("English for developer")); 
 console.log(slugify("Ten secrets of JavaScript")); 
